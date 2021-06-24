@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      #main {
+        width: 100vw;
+        height: 90vh;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #left,
+      #right {
+        width: 50%;
+        height: 100%;
+      }
+      #left {
+        background-color: cadetblue;
+      }
+      #right {
+        background-color: slategray;
+      }
+      #links {
+        width: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div id="logo">LOGO</div>
+      <div id="links">
+        <ul>
+          <li><a href="./about.html">ABOUT US</a></li>
+          <li><a href="./contact.html">CONTACT US</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="main">
+      <div id="left">
+        <h1>My first web page</h1>
+      </div>
+      <div id="right">
+        <form>
+          <input type="text" placeholder="Enter Your Username here" />
+          <input type="password" placeholder="Password" />
+          <button type="submit"><a href="./dashboard.html">Login</a></button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

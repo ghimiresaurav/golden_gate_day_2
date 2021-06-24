@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      #main {
+        width: 60vw;
+        background-color: rgb(199, 226, 250);
+        transform: translateX(20vw);
+        padding: 10px;
+      }
+      .content {
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid;
+        border-bottom: none;
+      }
+      .content:last-child {
+        border-bottom: 1px solid;
+      }
+      img,
+      iframe {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div id="logo">LOGO</div>
+      <div id="links">
+        <ul>
+          <li><a href="./dashboard.html">Home</a></li>
+          <li><a id="active" href="./explore.html">Explore</a></li>
+          <li><a href="#">Notification</a></li>
+          <li><a href="./profile.html">Profile</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="main">
+      <div class="content">
+        <h2>Lotus Fountain in Kathmandu University</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+          delectus eveniet iusto maxime, dignissimos sint recusandae praesentium
+          laboriosam assumenda eos nemo reprehenderit nihil similique fugiat
+          beatae perferendis atque neque! Blanditiis! Ex et aperiam excepturi
+          temporibus saepe dignissimos nihil veritatis quasi assumenda
+          distinctio voluptatibus maxime optio natus, blanditiis eaque non nemo
+          deleniti eveniet! Libero deleniti ex alias dicta, fuga earum
+          dignissimos! Veritatis cupiditate numquam obcaecati, placeat ipsum
+          iusto repellat provident praesentium, repellendus sunt ipsam ullam in
+          similique quo quas laboriosam maxime laudantium error, commodi dolor
+          debitis cumque facilis nihil. Ducimus, qui? Commodi deserunt ipsum
+          pariatur atque cum molestiae harum illum aliquid. Minima non sed nisi
+          consequuntur ab aperiam possimus! Provident unde beatae expedita
+          dignissimos animi sequi iure qui quas dolore maiores. Error fugit eum
+          perspiciatis quis, dolor blanditiis omnis, labore ipsam modi quam esse
+          voluptatem veniam eius qui! Fuga enim, perferendis itaque odio eveniet
+          esse illum eum sapiente aperiam debitis. Illo.
+        </p>
+        <img src="./assets/IMG_20190130_180011_844.jpg" alt="" />
+      </div>
+      <div class="content">
+        <iframe
+          width="900"
+          height="506"
+          src="https://www.youtube.com/embed/UB1O30fR-EE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>

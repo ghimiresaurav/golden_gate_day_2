@@ -1,0 +1,11 @@
+#be464b
+
+#grid-1{background-color: palegoldenrod;}
+#grid-2{background-color: palevioletred;}
+#grid-3{background-color:lightskyblue;}
+#grid-4{background-color:lightsalmon;}
+#grid-5{background-color:paleturquoise;}
+#grid-6{background-color:palegreen;}
+#grid-7{background-color:lightseagreen;}
+#grid-8{background-color: lightslategrey;}
+#grid-9{background-color: lightpink;}
